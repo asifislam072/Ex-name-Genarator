@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex name genarator</title>
+
+    <!-- tailwind link && daisy ui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"   rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="">
+    <main class="min-h-screen bg-[#a6aff0] bg-[url(images/background.png)] bg-no-repeat bg-center">
+        <!-- Home area -->
+        <section class="home min-h-screen text-white flex items-center justify-center">
+           <div class="flex flex-col items-center gap-5">
+            <h1 class="text-5xl uppercase popins">Alpha Clash Pro</h1>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+           <button class="btn px-9 py-2 text-lg">Play Now</button>
+           </div>
+        </section>
+
+        <!-- play ground -->
+        <section class="play-ground hidden">
+        <div class="flex items-center flex-col gap-9">
+            <!-- screen -->
+            <div class="artboard artboard-horizontal phone-1  border-8 rounded-2xl border-[#010313CC] bg-[#fffFFFB3] mt-7">
+                <div class="flex justify-center ">
+                    <p class="bg-black text-white px-4 py-2 rounded-b-xl">Don't watch keybord while playing...</p>
+                    
+                </div>
+                <div class="flex justify-center items-center h-full">
+                    <p class="text-black text-8xl font-bold">Y</p>
+                </div>
+            </div>
+            <!-- keybord -->
+            <div class="">
+                <div class="flex justify-center gap-1 my-1 w-full ">
+                    <kbd class="kbd">q</kbd>
+                    <kbd class="kbd">w</kbd>
+                    <kbd class="kbd">e</kbd>
+                    <kbd class="kbd">r</kbd>
+                    <kbd class="kbd">t</kbd>
+                    <kbd class="kbd">y</kbd>
+                    <kbd class="kbd">u</kbd>
+                    <kbd class="kbd">i</kbd>
+                    <kbd class="kbd">o</kbd>
+                    <kbd class="kbd">p</kbd>
+                  </div> 
+                  <div class="flex justify-center gap-1 my-1 w-full">
+                    <kbd class="kbd">a</kbd>
+                    <kbd class="kbd">s</kbd>
+                    <kbd class="kbd">d</kbd>
+                    <kbd class="kbd">f</kbd>
+                    <kbd class="kbd">g</kbd>
+                    <kbd class="kbd">h</kbd>
+                    <kbd class="kbd">j</kbd>
+                    <kbd class="kbd">k</kbd>
+                    <kbd class="kbd">l</kbd>
+                  </div> 
+                  <div class="flex justify-center gap-1 my-1 w-full">
+                    <kbd class="kbd">z</kbd>
+                    <kbd class="kbd">x</kbd>
+                    <kbd class="kbd">c</kbd>
+                    <kbd class="kbd">v</kbd>
+                    <kbd class="kbd">b</kbd>
+                    <kbd class="kbd">n</kbd>
+                    <kbd class="kbd">m</kbd>
+                    <kbd class="kbd">/</kbd>
+                  </div>
+            </div>
+            <!-- life scor -->
+            <div class="">
+                <button class="btn rounded-full bg-indigo-500 text-white px-4 py-2  border-none">
+                    life
+                    <i class="fa-solid fa-heart-circle-bolt"></i>
+                    <span>1</span>
+                </button>
+                <button class="btn rounded-full">
+                    Score
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <span>1</span>
+                </button>
+            </div>
+        </div>
+        </section>
+
+        <section class="score hidden flex justify-center flex-col items-center min-h-screen">
+            <div class="text-white text-center bg-[#6bc2fcb3] p-7 rounded-lg">
+                <h1 class="text-5xl">
+                    <span class="font-semibold">Score:</span>
+                    <span>
+                        14
+                    </span>
+                </h1>
+                <button class="btn my-5 px-5 py-2">Play Againg</button>
+                <p>Pratice will make you a pro</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
