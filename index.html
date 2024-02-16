@@ -86,18 +86,18 @@
                 <button class="btn rounded-full bg-indigo-500 text-white px-4 py-2  border-none">
                     life
                     <i class="fa-solid fa-heart-circle-bolt"></i>
-                    <span>1</span>
+                    <span id="curret-life">5</span>
                 </button>
                 <button class="btn rounded-full">
                     Score
                     <i class="fa-solid fa-dollar-sign"></i>
-                    <span>1</span>
+                    <span id="curret-score">0</span>
                 </button>
             </div>
         </div>
         </section>
 
-        <section class="score hidden flex justify-center flex-col items-center min-h-screen">
+        <section id="final-score" class="hidden flex justify-center flex-col items-center min-h-screen">
             <div class="text-white text-center bg-[#6bc2fcb3] p-7 rounded-lg">
                 <h1 class="text-5xl">
                     <span class="font-semibold">Score:</span>
@@ -105,13 +105,13 @@
                         14
                     </span>
                 </h1>
-                <button class="btn my-5 px-5 py-2">Play Againg</button>
+                <button onclick="play()" class="btn my-5 px-5 py-2">Play Againg</button>
                 <p>Pratice will make you a pro</p>
             </div>
         </section>
     </main>
 
     <script src="alpha.js"></script>
-    <script src="ex.js"></script>
+    <script src="exn.js"></script>
 </body>
 </html>
