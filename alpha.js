@@ -13,12 +13,20 @@ function setBackgroundColor(elementId){
     element.classList.add('bg-orange-400')
 }
 
+function getElementByText(elementId){
+    const element = document.getElementById(elementId);
+    const text = element.innerText;
+    return text;
+}
+
+
 function setRightAlphabatBg(elementId){
     const element = document.getElementById(elementId);
     element.classList.add('bg-red-100')
 }
 
 function removeBackgroundColor(elementId){
+    console.log()
     const element = document.getElementById(elementId);
     element.classList.remove('bg-orange-400');
 }

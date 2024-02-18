@@ -91,12 +91,20 @@ function play(){
 function gameOver(){
     hideElementById('play-ground')
     showElementById('final-score')
+    // update final score
+    // 1.get the final score
+    const lastSore = document.getElementById('curret-score');
+    const lastScoreInnerText = lastSore.innerText
+    setTextElementById('game-over',lastScoreInnerText)
+
+    // remove wrong button color bg
+    const currterAlphabet = getElementByText('curret-alphabet')
+    console.log(currterAlphabet);
+    removeBackgroundColor(currterAlphabet);
+
 }
 
-function ageingPlayGround(){
-    showElementById('play-ageing')
-    hideElementById('final-score')
-}
+
 
 
 
